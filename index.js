@@ -1,5 +1,4 @@
 
-/*
 const generateAdvice = async () => {
 
 try {
@@ -13,17 +12,12 @@ try {
     $('.adviceH1').text(`Advice: #${slipId}`);
     $('.adviceP').text(advice);
 
-
 } catch(error){
     console.log(error);
 }    
-
 }
-
-
 
 $(document).ready(function () {
     generateAdvice();
     $('#adviceGenerator').on('click',generateAdvice);
 });
-*/
