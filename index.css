@@ -117,7 +117,7 @@ body {
 
 
 
-@media only screen and (min-width:375px) and (max-width:575.98px) { 
+@media only screen and (min-width:250px) and (max-width:575.98px) { 
 /* Styles for Portrait phones */ 
 .adviceP {
     max-width: 95%;
