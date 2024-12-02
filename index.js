@@ -19,5 +19,5 @@ try {
 
 $(document).ready(function () {
     generateAdvice();
-    $('#adviceGenerator').on('click',generateAdvice);
+    $('.adviceGenerator').on('click',generateAdvice);
 });
