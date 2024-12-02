@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    margin-top: 20%;
+}
+
+#cardCss{
+    background-color: hsl(217, 19%, 24%);
+    padding:20px;
+   
+}
+
+.adviceP {
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope';
+    font-weight: 800;
+    max-width: 60%;   
+}
+
+.adviceH1{
+    color:hsl(150, 100%, 66%);
+    font-family: 'Manrope';
+    font-size: 20px;
+}
+
+.adviceGenerator{
+    background-color: hsl(150, 100%, 66%);
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-bottom: -60px;
+    
+}   
+
+.adviceGenerator:hover{
+    box-shadow: 0rem 0rem 2.5rem 0rem hsl(150, 100%, 66%);
+}
+
+
+.desktopDivider{
+    display: block;
+}
+
+.mobileDivider{
+    display: block;
+}
+
+@media only screen and (min-width:1400px) { 
+/* Styles for larger desktops */
+
+ .mobileDivider{
+    display: none;
+ }
+
+ .adviceP{
+    max-width: 70%;
+ }
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width:1399.98px) {
+/* Styles for laptops and desktops */
+
+ .mobileDivider{
+    display: none;
+ }
+
+ .adviceP{
+    max-width: 75%;
+ }
+}
+
+
+@media only screen and  (min-width:992px) and (max-width:1199.98px) {
+/* Styles for portrait tablets and large phones */
+
+ .mobileDivider{
+    display: none;
+ }
+
+ .adviceP{
+    max-width: 80%
+ }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991.98px) {
+/* Styles for tablets */
+
+ .desktopDivider{
+    display: none;
+ }
+
+ .adviceP{
+    max-width :85%;
+ }
+}
+
+
+@media only screen and (min-width:576px) and (max-width:767.98px) {
+ /* Styles for Landscape phones */
+
+ .desktopDivider {
+    display: none;
+ }
+
+ .adviceP{
+    max-width :90%;
+ }
+
+}
+
+
+
+@media only screen and (min-width:375px) and (max-width:575.98px) { 
+/* Styles for Portrait phones */ 
+.adviceP {
+    max-width: 95%;
+}
+
+.desktopDivider{
+    display:none;
+}
+
+}
